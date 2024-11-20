@@ -1,4 +1,4 @@
-<h1>Stock vs Oil Price Correlation Analysis and Linear Regression</h1>
+<h1>Stock vs Oil Price Correlation Analysis</h1>
 <p>
   This project combines ETL processes with analytical workflows to uncover the relationship 
   between stock price changes and oil price changes. The ETL pipeline is orchestrated using 
@@ -52,6 +52,13 @@
         <li>
           <strong>Check data on your database</strong>
         </li>
+        <li>
+          <strong>Run the analysis:</strong>
+          <ul>
+            <li>Download correlation_analysis.py from this repository</li>
+            <li>Run correlation_analysis.py (make sure to change database credential with your own)</li>
+          </ul>
+        </li>
     </ol>
 
 <h2>🔗 Resources</h2>
@@ -63,7 +70,8 @@
 
 <h2>📜 Note</h2>
   <ul>
-    <li>Link to Notion: <a href="https://www.notion.so/Data-Pipelining-1442890c34e88091bf36f315f63a5946?pvs=4">Click_me</a></li>
+    <li>Link to Notion (Blog post): <a href="https://www.notion.so/Data-Pipelining-1442890c34e88091bf36f315f63a5946?pvs=4">Click_me</a></li>
     <li>Presentation Video: <a href="https://drive.google.com/drive/folders/1-8X9MAkrhXsZDo1v88JOgb6w2Xy6NyK3?usp=sharing">Click_me</a></li>
     <li>Link to Google Colab:<a href="https://colab.research.google.com/drive/1zjjIyVeKH-xb-9XHfVfcTemJhBRDpNsp?usp=sharing">Click_me</a></li>
+    <li>Link to Airflow Azure Container Instance:<a href="https://data-pipeline-oil.agreeableflower-bf1ef051.southeastasia.azurecontainerapps.io">Click_me</a></li>
   </ul>
