@@ -1,4 +1,4 @@
-<h1>Stock vs Oil Price Correlation Analysis</h1>
+<h1>Stock vs Oil Price Correlation Analysis and Linear Regression</h1>
 <p>
   This project combines ETL processes with analytical workflows to uncover the relationship 
   between stock price changes and oil price changes. The ETL pipeline is orchestrated using 
