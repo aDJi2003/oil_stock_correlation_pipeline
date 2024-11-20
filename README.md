@@ -21,9 +21,9 @@
         <li>Docker</li>
         <li>Apache Airflow</li>
         <li>Azure PostgreSQL Database</li>
-        <li>Python Libraries: <code>psycopg2-binary</code>, <code>pandas</code>, <code>matplotlib</code>, <code>beautifulsoup4</code>, <code>requests</code></li>
+        <li>Python Libraries: <code>psycopg2-binary</code>, <code>pandas</code>, <code>matplotlib</code>, <code>beautifulsoup4</code>, <code>requests</code>, <code>pymysql</code></li>
     </ul>
-    <pre><code>pip install psycopg2-binary pandas matplotlib beautifulsoup4 requests</code></pre>
+    <pre><code>pip install psycopg2-binary pandas matplotlib beautifulsoup4 requests pymysql</code></pre>
 
 <h2>🚀 How to Run</h2>
     <ol>
@@ -43,6 +43,8 @@
             <li><code>docker run -d -p 8080:8080 puckel/docker-airflow webserver</code> (you should be able to see Airflow run on localhost:8080)</li>
             <li>Download mains_dag.py from this repository (make sure to change database credential with your own)</li>
             <li><code>docker cp path_to_mains_dag.py container_name:/usr/local/airflow/dags</code></li>
+            <li><code>docker exec -it container_name bash (go to inside container)</code></li>
+            <li><code>pip install psycopg2-binary pandas matplotlib beautifulsoup4 requests pymysql</code></li>
             <li><code>docker restart container_name</code></li>
             <li>Go to localhost:8080 and turn on the dag</li>
           </ul>
@@ -68,6 +70,6 @@
 
 <h2>📜 Note</h2>
   <ul>
-    <li>Link to Notion: <a href="#"></a></li>
-    <li>Example output: <a href="#"></a></li>
+    <li>Link to Notion: <a href="https://www.notion.so/Data-Pipelining-1442890c34e88091bf36f315f63a5946?pvs=4">Click_me</a></li>
+    <li>Example output: <a href="https://drive.google.com/file/d/1XB0T8u_LjSNzabtKT83_xW2H886irf26/view?usp=sharing">Click_me</a></li>
   </ul>
