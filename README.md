@@ -52,13 +52,6 @@
         <li>
           <strong>Check data on your database</strong>
         </li>
-        <li>
-          <strong>Get the visualization:</strong>
-          <ul>
-            <li>Download correlation_analysis.py from this repository</li>
-            <li>Run the code from correlation_analysis.py (make sure to change database credential with your own)</li>
-          </ul>
-        </li>
     </ol>
 
 <h2>🔗 Resources</h2>
@@ -71,5 +64,6 @@
 <h2>📜 Note</h2>
   <ul>
     <li>Link to Notion: <a href="https://www.notion.so/Data-Pipelining-1442890c34e88091bf36f315f63a5946?pvs=4">Click_me</a></li>
-    <li>Example output: <a href="https://drive.google.com/file/d/1XB0T8u_LjSNzabtKT83_xW2H886irf26/view?usp=sharing">Click_me</a></li>
+    <li>Presentation Video: <a href="https://drive.google.com/drive/folders/1-8X9MAkrhXsZDo1v88JOgb6w2Xy6NyK3?usp=sharing">Click_me</a></li>
+    <li>Link to Google Colab:<a href="https://colab.research.google.com/drive/1zjjIyVeKH-xb-9XHfVfcTemJhBRDpNsp?usp=sharing">Click_me</a></li>
   </ul>
